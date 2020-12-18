@@ -25,7 +25,7 @@ namespace MicTestService.Controllers
         /// 返回用户名
         /// </summary>
         /// <returns></returns>
-        [HttpPost]
+        [HttpGet]
         public string GetUserName()
         {
             return "ershao";
