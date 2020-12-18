@@ -12,6 +12,7 @@ namespace MicTestService.Controllers
     public class UserController : ControllerBase
     {
         [HttpPost]
+        [Route("Get")]
         public string GetUserName()
         {
             return "ershao";
