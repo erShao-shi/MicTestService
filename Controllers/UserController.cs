@@ -7,12 +7,25 @@ using System.Threading.Tasks;
 
 namespace MicTestService.Controllers
 {
-    [Route("api/[controller]")]
+    /// <summary>
+    /// 
+    /// </summary>
+    [Route("[controller]/[action]")]
     [ApiController]
     public class UserController : ControllerBase
     {
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        public UserController()
+        {
+
+        }
+        /// <summary>
+        /// 返回用户名
+        /// </summary>
+        /// <returns></returns>
         [HttpPost]
-        [Route("Get")]
         public string GetUserName()
         {
             return "ershao";

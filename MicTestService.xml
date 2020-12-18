@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MicTestService</name>
+    </assembly>
+    <members>
+        <member name="T:MicTestService.Controllers.UserController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:MicTestService.Controllers.UserController.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="M:MicTestService.Controllers.UserController.GetUserName">
+            <summary>
+            返回用户名
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
