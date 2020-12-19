@@ -28,7 +28,7 @@ namespace MicTestService.Controllers
         [HttpGet]
         public string GetUserName()
         {
-            return "ershao";
+            return "ershao.SHI";
         }
     }
 }
